@@ -193,7 +193,7 @@ nav {
 header {
     width: 95%;
     margin: auto;
-    background: var(--bg);
+    background: #c19549;
     border-radius: 90px;
     padding: 20px;
 
@@ -523,7 +523,7 @@ header {
                 align-items: center;
                 justify-content: center;
                 padding: 40px;
-                background: var(--bg);
+                background: #c19549;
                 border-radius: 50%;
 
                 @media (max-width:768px) {
@@ -729,7 +729,7 @@ header {
 
                     .envelope {
                         display: flex;
-                        background: var(--bg);
+                        background: #c19549;
                         width: 50px;
                         height: 50px;
                         border-radius: 50%;

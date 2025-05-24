@@ -1,0 +1,21 @@
+/* تنسيقات خاصة بالسلايدر في وضع RTL */
+.about-us .content .right {
+    direction: ltr; /* إبقاء اتجاه السلايدر من اليسار لليمين */
+}
+
+.about-us .content .right .slider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.about-us .content .right .slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* معالجة مشكلة العرض في RTL */
+[dir="rtl"] .slick-slide {
+    float: left;
+}
